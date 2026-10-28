@@ -1,0 +1,10 @@
+{
+  "name": "bid-scout",
+  "version": "0.1.0",
+  "description": "Agent that finds open public RFPs a small business can actually win, scores the fit with NVIDIA Nemotron and drafts the response. Live web via Tavily.",
+  "type": "module",
+  "bin": { "bid-scout": "src/cli.mjs" },
+  "scripts": { "test": "node --test test/", "demo": "node src/cli.mjs --profile profiles/design-master-solutions.json --replay" },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}
