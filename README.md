@@ -20,6 +20,21 @@ Built by Design Master Solutions LLC, a Massachusetts web and app agency, for it
 
 Live web, `nvidia/Nemotron-3-Ultra-550b-a55b` served by Nebius Token Factory: 3 Tavily searches, 6 solicitations read, 4 dismissed (a road reconstruction and a landscape/engineering RFP that are off-trade and past due, a LinkedIn post that is not a solicitation, and a 41-site website RFP capped at 30 because none of its 8 model quotes were on the page), 2 ranked: the Town of Chilhowie website RFP at 72 and a Massachusetts administrative services RFP at 55, each with verified quotes. 19 model quotes across the six were dropped because they were not on the page. Full output: [`docs/sample-brief.md`](docs/sample-brief.md). `npm run demo` replays it from `fixtures/`.
 
+## Nebius Token Factory and NVIDIA Nemotron in this project
+
+- Every judgment and the draft come from `nvidia/Nemotron-3-Ultra-550b-a55b` on Nebius Token Factory (`src/clients.mjs`, OpenAI-compatible `/v1/chat/completions`). The recorded run in `fixtures/` was made on Token Factory on 29 Oct 2026: 7 chat calls, 6 assessments and 1 draft.
+- Tavily (search + extract) runs at runtime for the live web part.
+
+### Feedback
+
+- The OpenAI-compatible endpoint was a true drop-in: the same client code runs against build.nvidia.com and Token Factory, only base URL, key and model id change.
+- Model ids are case-sensitive and differ between NVIDIA's API (`nvidia/nemotron-3-ultra-550b-a55b`) and Token Factory (`nvidia/Nemotron-3-Ultra-550b-a55b`). Our first Token Factory call failed with `model_not_found` until we listed `/v1/models`. Accepting ids case-insensitively, or listing the NVIDIA alias, would save every team that switches providers a round trip.
+- Nemotron 3 Ultra returns its reasoning in `reasoning_content` and the answer in `content`, which kept our JSON parsing simple: no need to strip thinking tags.
+
+## What was built during the Submission Period
+
+The whole project. First commit 28 Oct 2026, inside the submission period.
+
 ## Run it
 
 Node 22+, no dependencies.
