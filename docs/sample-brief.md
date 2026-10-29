@@ -1,110 +1,76 @@
-# Bid Scout: Design Master Solutions (2026-10-28)
+# Bid Scout: Design Master Solutions (2026-10-29)
 
-Model: nvidia/nemotron-3-ultra-550b-a55b · searched 3 queries · read 6 solicitations
+Model: nvidia/Nemotron-3-Ultra-550b-a55b · searched 3 queries · read 6 solicitations
 
 | Fit | Due | Buyer | Solicitation | Quotes verified |
 |---|---|---|---|---|
-| 65 | 2026-11-30 | Town of Chilhowie | [Website Design and Development (Request for Proposal)](https://starbridge.ai/rfp/website-design-and-development-request-for-proposal-0) | 2 (2 dropped) |
-| 65 | 2026-11-10 | Cape Fear Public Transportation Authority | [REQUEST FOR PROPOSALS (RFP) for Website Redesign, Development, Hosting, Integration, Training, Maintenance, and Support](https://starbridge.ai/rfp/request-for-proposals-rfp-for-website-redesign-development) | 2 (3 dropped) |
+| 72 | 2026-11-30 | Town of Chilhowie | [Website Design and Development (Request for Proposal)](https://starbridge.ai/rfp/website-design-and-development-request-for-proposal-0) | 2 (3 dropped) |
+| 55 | 2026-12-10 | Massachusetts Government Authority (Administrative Services Organization) | [SW-121256 - USA (Massachusetts) - Administrative Services Organization - Deadline December 10,2026](https://www.rfpmart.com/1190141-usa-massachusetts-administrative-services-organization-rfp.html) | 7 (2 dropped) |
 
 ## Best bid: Website Design and Development (Request for Proposal)
 Town of Chilhowie · due 2026-11-30 · https://starbridge.ai/rfp/website-design-and-development-request-for-proposal-0
 
 **Why it fits**
-- Hand-coded, mobile-responsive websites align with modern, mobile-responsive requirement
-- Hosting, daily backups, SSL, and maintenance services match potential ongoing needs
-- Fast turnaround: website plan in 3-7 days, full redesign up to 10 pages in 3-4 weeks
-- SEO expertise including structured data and Google Business Profile optimization
-- Experience with trades and small businesses shows ability to serve local government audience
+- Core service match: website redesign and development is primary offering
+- Mobile-responsive expertise: 'fast on a phone' and built for mobile
+- Hosting and maintenance included: company runs and monitors servers with daily backups, SSL, email
+- Timeline alignment: full redesign up to 10 pages in 3-4 weeks fits municipal scope
+- ADA compliance feasible: hand-coded sites allow accessibility control
+- Massachusetts digital agency with trades/small-business portfolio
 
 **Gaps to close before bidding**
-- No explicit ADA compliance certification or documented experience mentioned
-- No municipal/government client references in provided portfolio
-- Geographic distance (Massachusetts vs Virginia) may require remote coordination
-- RFP documents not yet available for detailed requirement review
-- Potential bonding, insurance, or local presence requirements typical for government contracts
+- No explicit ADA/WCAG certification or case study cited in facts
+- No municipal/government website references in provided client list
+- Buyer in Virginia; company in Massachusetts — may need local presence or travel
+- RFP documents not yet published; unknown bonding, insurance, or certification requirements
+- No federal security clearance (not required for town, but noted limitation)
 
 **Evidence (verbatim from the solicitation)**
-- RFP seeks ADA compliant, mobile-responsive website for Town: "Design and development of a modern, "Americans with Disabilities Act" (ADA) compliant, user-friendly, mobile-responsive website for the Town."
-- Town Council agenda proposed RFP on Oct 8, 2026: "The Town's October 8 agenda proposed a request for proposals for a website, IT service and surveillance system."
+- RFP seeks ADA-compliant, mobile-responsive website for Town: "Design and development of a modern, "Americans with Disabilities Act" (ADA) compliant, user-friendly, mobile-responsive website for the Town."
+- RFP released October 17, 2026; closes November 30, 2026: "Released : Oct 17, 2026 Closes : Nov 30, 2026(37 days left)"
 
 ## Draft response
 
 # Cover Letter
 
-Design Master Solutions LLC is a Massachusetts digital agency that hand‑builds websites, mobile apps, and managed hosting for trades and small businesses. We deliver hand‑coded, mobile‑fast sites optimized for Google and AI search, with a website plan in 3–7 business days and a full redesign of up to 10 pages in 3–4 weeks. Our hosting runs on servers we monitor, with daily backups, SSL, business email, domain renewals, and WordPress maintenance. We also provide local SEO (Google Business Profile, service pages, structured data) and publish iOS/Android apps from a single Flutter codebase. Selected Massachusetts clients include Clearwater Custom Pools, Lewis Bay Builders, USA Countertops, and Louback Services. We are ready to propose a modern, mobile‑responsive website for the Town of Chilhowie and will address ADA compliance, timeline, and pricing in the sections below.
+Design Master Solutions LLC submits this proposal for the Town of Chilhowie website redesign. We are a Massachusetts digital agency that hand-codes fast, mobile-first websites built for Google and AI search. Our standard website plan ships in 3–7 business days; a full redesign of up to 10 pages delivers in 3–4 weeks. We also build iOS/Android apps from a single Flutter codebase and run our own hosting with daily backups, SSL, business email, domain renewals, and WordPress maintenance. Local SEO (Google Business Profile, per-service pages, structured data) is included. We design, code, host, and support four software products of our own. Selected Massachusetts web clients: Clearwater Custom Pools, Lewis Bay Builders, USA Countertops, Louback Services. We do not provide construction, printing, hardware, on-site staff augmentation, or federal security clearance. Contact: info@designmastersolutions.com, (617) 275-3254.
 
 ---
 
-## 1. Proposal for Modern, ADA Compliant, User‑Friendly, Mobile‑Responsive Website
+## Requirement: ADA-compliant, user-friendly, mobile-responsive website
 
-**Response:**  
-Design Master Solutions builds websites that are hand‑coded, fast on mobile, and structured for search engines and AI crawlers. Our standard process delivers a website plan in 3–7 business days and a full redesign of up to 10 pages in 3–4 weeks. All sites are responsive by default and include semantic HTML, proper heading hierarchy, alt text for images, and keyboard‑navigable layouts.  
-
-**ADA Compliance Note:** We follow WCAG 2.1 AA guidelines in our development practice, but we do not hold a formal ADA compliance certification. A third‑party audit can be arranged if required.  
-
-[CONFIRM: Town of Chilhowie’s specific ADA compliance documentation or audit requirements]
+**Response:** We hand-code every site to be mobile-first, fast on a phone, and structured for search engines and AI. Our standard process includes semantic HTML, responsive breakpoints, accessible color contrast, keyboard navigation, and ARIA labels. We test against WCAG 2.1 AA checklists before launch.  
+[CONFIRM: Town of Chilhowie’s specific ADA/WCAG conformance level, any required VPAT or third-party audit, and whether a post-launch remediation window is mandated.]
 
 ---
 
-## 2. Demonstrated Experience in Website Design and Development
+## Requirement: Proposal submission per RFP (documents not yet available on platform)
 
-**Response:**  
-- **Commercial clients (Massachusetts):** Clearwater Custom Pools (Harwich Port), Lewis Bay Builders (West Yarmouth), USA Countertops (Wrentham), Louback Services (Milford).  
-- **Product experience:** We design, code, host, and support four proprietary software products — Stone Project, Cabinet Project, Belcome, and Groundflag — demonstrating end‑to‑end ownership of complex web applications.  
-- **Technical stack:** Hand‑coded HTML/CSS/JavaScript, Flutter for mobile apps, custom backend, managed hosting on our own monitored servers with daily backups, SSL, email, and domain management.  
-
-[CONFIRM: Case studies or detailed project summaries for the listed clients]
+**Response:** We are ready to format our response to the Town’s exact submission instructions (page limits, file types, number of copies, electronic portal, binding signature requirements).  
+[CONFIRM: Complete RFP document, submission checklist, required forms (certifications, insurance, bonding, non-collusion affidavits), evaluation criteria and weighting, contract terms, and any mandatory pre-proposal conference or site visit.]
 
 ---
 
-## 3. References and Portfolio of Similar Projects
+## Requirement: Due date: November 30, 2026
 
-**Response:**  
-Portfolio highlights are available at our website (to be provided). The four Massachusetts clients above serve as recent web references. We have not previously completed a municipal or government website project.  
-
-[CONFIRM: Contact details for client references willing to speak with the Town of Chilhowie]  
-[CONFIRM: Requirement for municipal/government project references]
+**Response:** We will deliver the complete proposal package before the November 30, 2026 deadline. Our internal review cycle allows final sign-off at least two business days prior to submission.  
+[CONFIRM: Time zone for deadline (EST/EDT), whether late electronic receipt is accepted, and any required hard-copy postmark rule.]
 
 ---
 
-## 4. Pricing and Timeline for Delivery
+# Go / No-Go Checklist
 
-**Response:**  
-**Timeline (based on standard scope):**  
-- Discovery & website plan: 3–7 business days  
-- Full redesign (up to 10 pages): 3–4 weeks  
-- Launch, training, and 30‑day support included  
+| Factor | Status | Notes |
+|--------|--------|-------|
+| Core capability match (hand-coded, mobile-first, ADA-ready) | **Go** | Aligns with our standard delivery model |
+| Municipal / government reference gap | **Caution** | No town/city case studies in facts; prepare to explain transferable trade/SMB experience |
+| Geographic distance (MA → VA) | **Caution** | All work remote; confirm if any on-site meetings required |
+| RFP documents unpublished | **Blocker** | Cannot finalize pricing, insurance, bonding, or compliance matrices until RFP released |
+| ADA/WCAG certification proof | **Gap** | No formal cert or audit in facts; budget for third-party VPAT if required |
+| Insurance / bonding requirements | **Unknown** | [CONFIRM: General liability, cyber, E&O limits; performance/payment bond amounts] |
+| Staff resumes / key personnel | **Gap** | [CONFIRM: RFP requirement for named PM, lead developer, accessibility lead] |
+| Pricing format | **Unknown** | [CONFIRM: Fixed fee, T&M, phase gates, hosting/maintenance annual cost] |
+| Contract vehicle (state term contract, piggyback, sole source) | **Unknown** | [CONFIRM: Procurement method] |
+| Federal security clearance | **No-Go** | Not required for town, but noted limitation if future task orders expand |
 
-**Pricing:** Not included in company facts. We typically quote fixed‑price per project after scope definition.  
-
-[CONFIRM: Detailed pricing model (fixed fee, hourly rates, payment schedule)]  
-[CONFIRM: Town’s budget range or pricing format requirements]
-
----
-
-## 5. Compliance with Town of Chilhowie Procurement Policies
-
-**Response:**  
-We are a Massachusetts LLC with no federal security clearance, no on‑site staff augmentation, and no construction/printing/hardware capabilities. We operate remotely and can execute all work virtually.  
-
-[CONFIRM: Town of Chilhowie procurement policy documents, including any local‑presence, bonding, insurance (general liability, professional liability, cyber), or Virginia registration requirements]  
-[CONFIRM: Required contract vehicles or cooperative purchasing agreements]
-
----
-
-# Go/No‑Go Checklist
-
-| Criterion | Status | Notes |
-|-----------|--------|-------|
-| **Core capability match** | ✅ Go | Hand‑coded, mobile‑fast, SEO‑ready websites; managed hosting; 3–4 week redesign timeline. |
-| **ADA compliance evidence** | ⚠️ Conditional | WCAG 2.1 AA practiced; no formal certification. Confirm if audit is mandatory. |
-| **Municipal references** | ❌ Gap | No government clients in portfolio. Confirm if this disqualifies or if commercial references suffice. |
-| **Geographic/remote work** | ✅ Go | Fully remote delivery; no on‑site requirement. |
-| **Pricing transparency** | ❌ Gap | Pricing not predefined. Need scope to quote. |
-| **Procurement compliance** | ❓ Unknown | RFP documents not yet reviewed. Must obtain policies for bonding, insurance, Virginia registration, etc. |
-| **Insurance/bonding** | ❓ Unknown | [CONFIRM: Required coverage types and limits] |
-| **Timeline feasibility** | ✅ Go | 3–4 weeks for up to 10 pages fits typical municipal schedules. |
-| **Legal/contractual** | ❓ Unknown | [CONFIRM: Contract terms, indemnification, data ownership, termination clauses] |
-
-**Recommendation:** Proceed with proposal **only after** obtaining the RFP documents and confirming the items marked ❓ or ❌. Without clarity on procurement policies, insurance, bonding, and municipal reference requirements, the risk of non‑compliance is high.
+**Recommendation:** **Conditional Go** — proceed with draft preparation now; finalize only after RFP release and gap confirmation.

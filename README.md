@@ -16,9 +16,9 @@ Built by Design Master Solutions LLC, a Massachusetts web and app agency, for it
 
 2:30 walkthrough of the recorded run, the quote check and the tests: [`docs/demo.mp4`](docs/demo.mp4).
 
-## Sample run (28 Oct 2026, recorded)
+## Sample run (29 Oct 2026, recorded on Nebius Token Factory)
 
-Live web, Nemotron 3 Ultra: 3 searches, 6 solicitations read, 4 dismissed (a road reconstruction, administrative services, and two charter-network website RFPs below the fit threshold), 2 municipal website RFPs ranked at 65 with verified quotes (16 of the model quotes across all six were dropped because they were not on the page). Full output: [`docs/sample-brief.md`](docs/sample-brief.md). `npm run demo` replays it from `fixtures/`.
+Live web, `nvidia/Nemotron-3-Ultra-550b-a55b` served by Nebius Token Factory: 3 Tavily searches, 6 solicitations read, 4 dismissed (a road reconstruction and a landscape/engineering RFP that are off-trade and past due, a LinkedIn post that is not a solicitation, and a 41-site website RFP capped at 30 because none of its 8 model quotes were on the page), 2 ranked: the Town of Chilhowie website RFP at 72 and a Massachusetts administrative services RFP at 55, each with verified quotes. 19 model quotes across the six were dropped because they were not on the page. Full output: [`docs/sample-brief.md`](docs/sample-brief.md). `npm run demo` replays it from `fixtures/`.
 
 ## Run it
 

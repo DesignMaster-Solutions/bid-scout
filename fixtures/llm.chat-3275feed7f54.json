@@ -1,0 +1,5 @@
+{
+  "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+  "provider": "nebius",
+  "content": "{\n  \"is_open_solicitation\": false,\n  \"buyer\": \"\",\n  \"title\": \"\",\n  \"due_date\": null,\n  \"fit_score\": 0,\n  \"why_fit\": [],\n  \"gaps\": [],\n  \"requirements\": [],\n  \"evidence\": [\n    {\n      \"claim\": \"Page is a LinkedIn post aggregating RFP listings, not a solicitation\",\n      \"quote\": \"RFPMart Daily - Latest Government RFPs & Bids Posted on October 08, 2026\"\n    },\n    {\n      \"claim\": \"Post is from RFPMart LLC, an RFP aggregation service\",\n      \"quote\": \"RFPMart LLC 4,937 followers 2w\"\n    },\n    {\n      \"claim\": \"Content lists multiple RFPs across categories and states\",\n      \"quote\": \"001 - Web Design and Development WD-16320-USA (Colorado) - Web Developer Service- Deadline October 12,2026\"\n    }\n  ]\n}"
+}

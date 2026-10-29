@@ -7,7 +7,7 @@ export function llmConfig(env = process.env) {
     return {
       provider: 'nebius', key: env.NEBIUS_API_KEY,
       base: env.LLM_BASE_URL ?? 'https://api.tokenfactory.nebius.com/v1',
-      model: env.LLM_MODEL ?? 'nvidia/Nemotron-3-Ultra-550B-A55B',
+      model: env.LLM_MODEL ?? 'nvidia/Nemotron-3-Ultra-550b-a55b',
     };
   }
   if (env.NVIDIA_API_KEY) {
