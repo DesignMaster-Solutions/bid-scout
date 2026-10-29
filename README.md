@@ -12,6 +12,10 @@ Give it a company profile (services, region, facts it may claim, things it canno
 
 Built by Design Master Solutions LLC, a Massachusetts web and app agency, for its own pipeline. The sample profile in `profiles/` is ours and only lists true facts from our site.
 
+## Demo video
+
+2:30 walkthrough of the recorded run, the quote check and the tests: [`docs/demo.mp4`](docs/demo.mp4).
+
 ## Sample run (28 Oct 2026, recorded)
 
 Live web, Nemotron 3 Ultra: 3 searches, 6 solicitations read, 4 dismissed (a road reconstruction, administrative services, and two charter-network website RFPs below the fit threshold), 2 municipal website RFPs ranked at 65 with verified quotes (16 of the model quotes across all six were dropped because they were not on the page). Full output: [`docs/sample-brief.md`](docs/sample-brief.md). `npm run demo` replays it from `fixtures/`.
