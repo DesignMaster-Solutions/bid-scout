@@ -14,7 +14,7 @@ Built by Design Master Solutions LLC, a Massachusetts web and app agency, for it
 
 ## Demo video
 
-2:30 walkthrough of the recorded run, the quote check and the tests: [`docs/demo.mp4`](docs/demo.mp4).
+2:40 walkthrough of the recorded Token Factory run, the quote check and the tests: [`docs/demo.mp4`](docs/demo.mp4).
 
 ## Sample run (29 Oct 2026, recorded on Nebius Token Factory)
 
